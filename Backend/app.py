@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify
 from bussiness import get_data
 
 app = Flask(__name__)
@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
 
-    return render_template('index.html')
+    return "Hello World"
 
 @app.route("/api", methods=['GET'])
 def api():
