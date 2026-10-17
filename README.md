@@ -1,4 +1,4 @@
-# Ares Docker Project
+# Simple Docker Project
 
 A simple Docker project demonstrating how to containerize and run a frontend and backend application using Docker Compose.
 
